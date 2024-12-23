@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.container-links {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.navbar-a {
+    text-decoration: none;
+    height: min-content;
+    width: max-content;
+    background-color:rgb(39, 79, 143);
+    border: 0.5px solid white;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+.navbar-a:hover {
+    background-color: rgb(64, 106, 173);
+}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} {{user.username}} {% endblock %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+{% endblock %}
+{% block content %}
+<h1>homepage</h1>
+{% endblock %}

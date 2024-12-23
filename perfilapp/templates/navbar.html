@@ -1,0 +1,10 @@
+<nav>
+    <div class="container-links">
+        {% if user.is_authenticated %}
+            <a class="navbar-a" href="{% url 'fazer_logout' %}">Sair</a>
+        {% else %}
+            <a class="navbar-a" href="#">Login</a>
+            <a class="navbar-a" href="#">Criar Conta</a>
+        {% endif %}
+    </div>
+</nav>

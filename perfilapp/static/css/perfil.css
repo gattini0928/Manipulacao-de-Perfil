@@ -1,0 +1,96 @@
+h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+img{
+    width: 40%;
+    height: auto;
+}
+
+.container-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    border: 1px solid rgb(39, 79, 143);
+}
+
+.container-foto {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.foto-perfil {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: translate(50%, 10%);
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.container-infos {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.container-botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    height: min-content;
+    width: max-content;
+    background-color:rgb(39, 79, 143);
+    border: 0.5px solid white;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+a:hover {
+    background-color: rgb(64, 106, 173);
+}
+
+@media (max-width:768px){
+    .container-perfil {
+        flex-direction: column;
+    }
+}
